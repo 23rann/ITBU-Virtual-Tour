@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITBU Virtual Tour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tour">
+        <div class="container">
+            <div class="tour_head">
+                <a href="index.html"><button class="buttonkembali" style="vertical-align:middle"><span>Kembali</span></button></a> <h1>ITBU VIRTUAL TOUR</h1>
+            </div>
+
+
+
+
+            <nav>
+            <div  class="buttonp">
+                <button class="button" id="btn1" style="vertical-align:middle"><span>Lab Komputer</span></button>
+                <button class="button" id="btn2" style="vertical-align:middle"><span>Lab Mesin</span></button>
+                <button class="button" id="btn3" style="vertical-align:middle"><span>Lab Fisika</span></button>
+                <button class="button" id="btn4" style="vertical-align:middle"><span>Lab Tanah</span></button>
+                <button class="button" id="btn5" style="vertical-align:middle"><span>Keuangan</span></button>
+                <button class="button" id="btn13" style="vertical-align:middle"><span>Gedung A</span></button>
+                <button class="button" id="btn6" style="vertical-align:middle"><span>Gedung C</span></button>
+                <button class="button" id="btn7" style="vertical-align:middle"><span>Wifi Id</span></button>
+                <button class="button" id="btn8" style="vertical-align:middle"><span>Perpustakaan</span></button>
+                <button class="button" id="btn9" style="vertical-align:middle"><span>Masjid</span></button>
+                <button class="button" id="btn10" style="vertical-align:middle"><span>Ruang Kelas</span></button>
+                <button class="button" id="btn11" style="vertical-align:middle"><span>Ruang Prodi</span></button>
+                <button class="button" id="btn12" style="vertical-align:middle"><span>Ruang Puskom</span></button>
+                
+            </div>
+
+
+        </nav>
+
+        <script>
+            function showSidebar(){
+              const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+              const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'none'
+            }
+          </script>
+
+            <div id="progress">
+                <div id="bar"></div>
+              </div>
+            <div class="image-container"></div>
+        
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script>
+    <script src="./js/panolens.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
